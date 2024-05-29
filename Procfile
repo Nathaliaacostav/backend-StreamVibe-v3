@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn streamvibe.wsgi
+web: python manage.py migrate && gunicorn streamvibe.wsgi:application --bind 0.0.0.0:8000
