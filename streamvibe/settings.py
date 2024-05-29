@@ -28,7 +28,6 @@ SECRET_KEY = 'django-insecure-vip!8_akx9pk$n5bo=54_q6^&ali^lp0t#=uzem@f-#&w_d8xl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 # Debug = 'RENDER' not in os.environ
-CORS_ALLOW_ALL_ORIGINS = True
 
 ALLOWED_HOSTS = ['localhost','web-production-0d83.up.railway.app']
 
