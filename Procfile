@@ -1,1 +1,1 @@
-web: gunicorn streamvibe.wsgi
+web: python manage.py migrate && gunicorn streamvibe.wsgi
